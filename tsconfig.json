@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "useDefineForClassFields": true, // Default value form ES2022, just for ref
+      "module": "CommonJS",
+      "sourceMap": true,
+      "baseUrl": ".",
+      "allowJs": true,
+    },
+    "include": ["**/*.ts"],
+    "files": ["./eslint.config.mjs"]
+}
